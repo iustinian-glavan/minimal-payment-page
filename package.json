@@ -1,0 +1,33 @@
+{
+  "name": "minimal-payment-page",
+  "version": "1.0.0",
+  "description": "minimal payment page using @lion lit-html web components",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Iustinian Glavan",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@lion/button": "^0.8.10",
+    "@lion/fieldset": "^0.15.15",
+    "@lion/form-core": "^0.7.2",
+    "@lion/input": "^0.10.15",
+    "@lion/input-amount": "^0.8.15",
+    "@lion/input-iban": "^0.11.5",
+    "@lion/validate-messages": "^0.3.15",
+    "lit-html": "^1.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.17.0",
+    "prettier": "^2.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  }
+}
